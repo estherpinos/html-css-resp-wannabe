@@ -138,10 +138,19 @@ img {
  
 @media screen and (max-width: 481px){
 
+    .container{
+        width: 480px;
+    }
+
      
     .row{
-        flex-direction: column-reverse;
+        flex-direction: column;
         flex-wrap: wrap;
+    }
+
+    .steps .col, .why-us .col-left, .why-us .col-right, .lessons .col {
+        width: 100%;  
+    
     }
 
     .card{
